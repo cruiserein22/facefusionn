@@ -12,13 +12,13 @@ TORCH : Dict[str, str] =\
 {
 	'default': 'default',
 	'cpu': 'cpu',
-	'cuda': 'cu118',
+	'cuda': 'cu121',
 	'rocm': 'rocm5.6'
 }
 ONNXRUNTIMES : Dict[str, Tuple[str, str]] =\
 {
-	'default': ('onnxruntime', '1.16.0'),
-	'cuda': ('onnxruntime-gpu', '1.16.0'),
+	'default': ('onnxruntime', '1.17.0'),
+	'cuda': ('onnxruntime-gpu', '1.17.0'),
 	'coreml-legacy': ('onnxruntime-coreml', '1.13.1'),
 	'coreml-silicon': ('onnxruntime-silicon', '1.16.0'),
 	'directml': ('onnxruntime-directml', '1.16.0'),
